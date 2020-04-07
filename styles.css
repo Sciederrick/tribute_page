@@ -90,7 +90,7 @@ img {
     float: left;
     height:  250px;
     width: 250px;
-    margin: 15vmin 12vmin 12vmin 5vmin;
+    margin: 10vmin 12vmin 12vmin 5vmin;
     /* transform: rotate(25deg); */
     display: flex;
     justify-content: center;
