@@ -9,8 +9,8 @@
   font-family: cursive;
   text-align: center;
   font-size: 1.5em;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 #title-underline {
   width: 30px;
@@ -39,7 +39,7 @@ img {
 }
 #img-div {
   float: clear;
-  height:  47%;
+  height: 47%;
   width: 90%;
   margin: auto;
   display: flex;
@@ -52,10 +52,17 @@ img {
 .mini-highlight {
   display: block;
   font-weight: bold;
-  width: 90vw;
+  width: 100%;
   height: auto;
-  margin: 2rem 0.3rem;
+  margin: 2rem 0;
   font-size: 1.05rem;
+  background: linear-gradient(
+    180deg,
+    #fff,
+    transparent
+    );
+  border-radius: 5px;
+  padding: 10px 2px;
 }
 /* quotes icon */
 ::before {
@@ -84,11 +91,11 @@ img {
     height:  250px;
     width: 250px;
     margin: 15vmin 12vmin 12vmin 5vmin;
-    transform: rotate(25deg);
+    /* transform: rotate(25deg); */
     display: flex;
     justify-content: center;
-    box-shadow:
-    5px 2px 8px 5px #000;
+    /* box-shadow:
+    5px 2px 8px 5px #000; */
   }
   #tribute-info {
     font-size: 1rem;
@@ -108,6 +115,12 @@ img {
     height: auto;
     margin: 0.8rem;
     font-size: 1.5rem;
+    background: linear-gradient(
+      180deg,
+      #fff,
+      transparent
+      );
+    border-radius: 5px;
   }
   /* quotes icon */
   ::before {
